@@ -1,0 +1,228 @@
+#bg1 {
+    background:url(../images/bg1.png) center;
+    background-size:cover;
+    background-attachment:fixed;
+    /* height:800px; background-position:0 -40px; */
+}
+#bg1 .bg_gra {background:linear-gradient(0deg, #000, transparent 40%);}
+#bg1 .bg_gra .container {
+    /* background-color:aqua; */
+    width:1220px; margin:0 auto; padding:300px 0; text-align:center; position:relative;}
+#bg1 .bg_gra .container h1 {}
+#bg1 .bg_gra .container h1 a {}
+#bg1 .bg_gra .container h1 a img {}
+#bg1 .bg_gra .container h1 em {}
+#bg1 .bg_gra .container .logo {width:50px; position:absolute; left:0; top:0;}
+#bg1 .bg_gra .container .logo a {}
+#bg1 .bg_gra .container .logo a img {width:100%;}
+#bg1 .bg_gra .container .title {
+    background-color: yellow;
+    margin-bottom:15px; }
+#bg1 .bg_gra .container .title em {font-weight:600;}
+#bg1 .bg_gra .container .title, #bg1 .bg_gra .container .title em {
+    color:#fff ;font-size:3.5rem; line-height:1.2; letter-spacing:-0.02em;
+}
+#bg1 .bg_gra .container a {}
+#bg1 .bg_gra .container a img {}
+#bg1 .bg_gra .container .sponser {}
+#bg1 .bg_gra .container .sponser img {}
+#bg1 .bg_gra .container .question {
+    position:absolute; right:0; bottom:200px;
+}
+#bg1 .bg_gra .container .question img {}
+/* 2 quiz *//* 2 quiz *//* 2 quiz *//* 2 quiz *//* 2 quiz *//* 2 quiz */
+#quiz_bg {
+    background:url(../images/quiz_bg.png) center;
+    background-size:cover; padding:50px 150px;
+}
+#quiz_bg .container {
+    width:1220px; margin:0 auto; color:#fff;
+    display:flex; flex-flow:row nowrap; justify-content:space-between;
+}
+#quiz_bg .container .quiz_left {
+    /* background-color: mediumspringgreen; */
+    width:45%;
+}
+#quiz_bg .container .quiz_left h1 {text-align: center;
+    font-size:2.5rem; font-weight: 700; padding-bottom:20px;
+}
+#quiz_bg .container .quiz_left #quizFrm {}
+#quiz_bg .container .quiz_left #quizFrm fieldset {}
+#quiz_bg .container .quiz_left #quizFrm fieldset h2 {
+    font-size:1.563rem; margin-bottom:25px;
+}
+#quiz_bg .container .quiz_left #quizFrm fieldset ul {}
+#quiz_bg .container .quiz_left #quizFrm fieldset ul li {margin-bottom:15px;}
+#quiz_bg .container .quiz_left #quizFrm fieldset ul li:last-child {margin-bottom:30px;}
+#quiz_bg .container .quiz_left #quizFrm fieldset ul li input[name=answer] {}
+#quiz_bg .container .quiz_left #quizFrm fieldset ul li label {
+    font-size:1.25rem;}
+#quiz_bg .container .quiz_left #quizFrm fieldset p {
+    background:#333; text-align:center; padding:20px 50px; border-radius: 50px;
+}
+#quiz_bg .container .quiz_left #quizFrm fieldset p .quiz_answer {
+     color:#fff; /* padding:10px 100%; */
+}
+#quiz_bg .container .quiz_right {
+    /* background-color:blue; */
+    width:45%; padding:20px 0;
+}
+#quiz_bg .container .quiz_right p {width:100%; text-align:center;}
+#quiz_bg .container .quiz_right p:first-child {margin-bottom:30px;}
+#quiz_bg .container .quiz_right p:last-child {width:100%; text-align:center;}
+#quiz_bg .container .quiz_right p img {width:100%;}
+/* campaign 통합 *//* campaign 통합 *//* campaign 통합 *//* campaign 통합 */
+.campaign_bg .container {
+    width:1220px; margin:0 auto;
+    text-align:center;
+}
+.campaign_bg .container h1, .campaign_bg .container h1 > * {
+    font-size:3rem; font-weight:700; line-height:1.4;
+    margin-bottom:30px;}
+/* campaign 1~7 배경모음 *//* campaign 1~7 배경모음 *//* campaign 1~7 배경모음 */
+.campaign1 {background:url(../images/video_bg.png);}
+.campaign2, .campaign4, .campaign6 {background:url(../images/50_bg.png);}
+.campaign3 {background:#eee;}
+.campaign5 {background:url(../images/wwf.jpg);}
+.campaign7 {background:url(../images/bg2.png);}
+.campaign_bg {background-position:center; background-size:cover; padding:50px 150px;}
+/* campaign 제목근접 p모음 *//* campaign 제목근접 p모음 *//* campaign 제목근접 p모음 */
+.campaign_bg .container h1+p {
+    font-size:1.5rem; letter-spacing:-0.02em; line-height:1.6;
+}
+/* 제목 박스글자 *//* 제목 박스글자 *//* 제목 박스글자 *//* 제목 박스글자 */
+.campaign_bg .container h1 > em {background:#fff; color:#000;}
+/* 3 video */ /* 3 video *//* 3 video *//* 3 video *//* 3 video *//* 3 video */
+.campaign_bg {}
+.campaign1 {}
+.campaign1 .container {}
+.campaign1 .container h1 {}
+.campaign1 .container iframe {
+    margin-bottom:20px;
+}
+.campaign1 .container a {
+    display:block;
+}
+.campaign1 .container a img {}
+/* 4 50%감소 *//* 4 50%감소 *//* 4 50%감소 *//* 4 50%감소 *//* 4 50%감소 */
+.campaign2 {}
+.campaign2 .container {
+    color:#fff; text-align: left;
+}
+.campaign2 .container h1 {}
+.campaign2 .container h1 em {}
+.campaign2 .container p {}
+.campaign2 .container p:last-child {
+    width:100%; text-align: center; margin-top: 20px;
+}
+.campaign2 .container p img {
+    width:100%;
+}
+/* 5 인류재앙 *//* 5 인류재앙 *//* 5 인류재앙 *//* 5 인류재앙 *//* 5 인류재앙 */
+.campaign3 .container {}
+.campaign3 .container h1 {}
+.campaign3 .container h1+p {
+    margin:20px 0 50px;
+}
+.campaign3 .container ul {
+    display:flex; flex-flow:row nowrap; justify-content:space-between;
+}
+.campaign3 .container ul li {
+    width:31%; height:500px; padding:30px 0 0; color:#fff;
+    position:relative;
+    /* display: flex; flex-flow: column nowrap; justify-content: space-between; */
+}
+.campaign3 .container ul li:nth-child(1) {
+    background:url(../images/28.png); background-position:center -100px;
+    background-size:cover;
+}
+.campaign3 .container ul li:nth-child(2) {
+    background:url(../images/27.png); background-position:center -100px;
+    background-size:cover;
+}
+.campaign3 .container ul li:nth-child(3) {
+    background:url(../images/332.png); background-position:center -100px;
+    background-size:cover;
+}
+.campaign3 .container ul li h2 {
+    font-size:2.5rem; font-weight: 700; margin-bottom:20px;
+}
+.campaign3 .container ul li p {
+    font-size:1.438rem; line-height: 1.6;
+}
+.campaign3 .container ul li p:last-child {
+    background-color: #fff; color:#000; width:100%; padding:20px;
+    height:40%; font-size: 1.125rem;
+    position:absolute; bottom:0;
+}
+/* 지구전체 위기 *//* 지구전체 위기 *//* 지구전체 위기 *//* 지구전체 위기 */
+.campaign4 .container {text-align: left; color:#fff;}
+.campaign4 .container h1+p {margin:20px 0 50px;}
+.campaign4 .container p {}
+.campaign4 .container p img {width:100%;}
+/* 믿을 수 있는 *//* 믿을 수 있는 *//* 믿을 수 있는 *//* 믿을 수 있는 *//* 믿을 수 있는 */
+.campaign5 {position:relative;}
+.campaign5::before {content:''; display:block; width:100%; height:100%;
+    background: rgb(255, 255, 255,0.5); position:absolute; top:0; left:0;
+    z-index:0;
+}
+.campaign5 .container {position:relative; z-index:1;}
+.campaign5 .container h1 {}
+.campaign5 .container p {
+    padding-bottom: 20px;
+}
+.campaign5 .container p:last-child {font-size:1.5rem; letter-spacing:-0.02em; line-height:1.6;}
+/* 후원 선물 *//* 후원 선물 *//* 후원 선물 *//* 후원 선물 *//* 후원 선물 *//* 후원 선물 */
+.campaign6 {}
+.campaign6 .container {
+    /* display: flex; flex-flow:column nowrap; justify-content: space-between;
+    align-content: space-between; */
+}
+.campaign6 .container .con_top {
+    display: flex; flex-flow: row nowrap; justify-content: space-between;
+}
+.campaign6 .container .con_top h1 {text-align: left;}
+.campaign6 .container .con_top a {}
+.campaign6 .container .con_top a img {}
+.campaign6 .container ul {
+    display:flex; flex-flow:row nowrap; justify-content:space-between;
+}
+.campaign6 .container ul li {
+    background-color: aqua;
+    width:31%;
+}
+.campaign6 .container ul li::before {
+    content:''; display:block; background-size:cover; height:200px; margin-bottom:10px;
+}
+.campaign6 .container ul li p {}
+.campaign6 .container ul li p:first-child {
+    /* width:100%; height:100px; */
+}
+.campaign6 .container ul li:first-child::before {
+    background-image: url(../images/freebie1.jpg);
+}
+.campaign6 .container ul li:nth-child(2)::before {
+    background-image: url(../images/freebie2.jpg);
+}
+.campaign6 .container ul li:last-child::before{
+    background-image: url(../images/freebie3.jpg);
+}
+.campaign6 .container ul li p img {
+    width:100%;
+}
+.campaign6 .container > p {
+    color:#fff;
+    display:inline-block; text-align:right;
+}
+/* 북극곰의 위기 *//* 북극곰의 위기 *//* 북극곰의 위기 *//* 북극곰의 위기 */
+.campaign7 .container {}
+.campaign7 .container h1 {}
+.campaign7 .container p {}
+
+/* 결제안내사항 *//* 결제안내사항 *//* 결제안내사항 *//* 결제안내사항 *//* 결제안내사항 */
+.notice {
+    width:1220px; margin:0 auto; padding:50px 0;
+}
+.notice h1 {font-weight:600; font-size:1.5rem; margin-bottom:30px;}
+.notice p {margin-bottom:20px; font-size:1.2rem;}
+.notice p:last-child {margin-bottom: 0;}
